@@ -13,7 +13,6 @@ public class removeDuplicatesfromSortedArray {
     }
 
     public static void main(String[] args) {
-        //int arr[] = {1, 2, 2, 3, 4, 4, 5};
         int nums[] = {0,0,1,1,1,2,2,3,3,4};
         int result = removeDuplicates(nums);
         for (int i = 0; i < result; i++) {
